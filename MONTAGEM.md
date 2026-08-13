@@ -37,8 +37,6 @@ O **Pico** é o cérebro. Ele lê a IMU pelo I²C, calcula o PID e envia PWM par
 
 Antes de conectar qualquer coisa, encaixe o Raspberry Pi Pico no Keyestudio IO Shield. O Pico tem um lado com **furos** e um cantinho **cortado**: esse cantinho é o pino 1. Alinhe com a marcação no Shield.
 
-<img width="325" height="527" alt="image" src="https://github.com/user-attachments/assets/86b23848-6eac-4282-89c7-dc0dee84a0de" />
-
 
 ✅ **Fase 1:** o Pico deve ficar bem encaixado, sem forçar. Se você conseguir ver alguma parte dos pinos metálicos, empurre mais.
 
@@ -59,7 +57,7 @@ A IMU se comunica pelo protocolo I²C, que usa apenas 2 fios de dados (SDA e SCL
 
 ⚠️ **Muito importante:** a IMU funciona em **3,3 V**, NÃO em 5 V. Se você ligar em 5 V, ela queima. No IO Shield, procure a linha rotulada `3V3`.
 
-<img width="407" height="290" alt="image" src="https://github.com/user-attachments/assets/9495e86a-a368-4ff6-af9a-4af84cee5df6" />
+<img width="814" height="580" alt="Captura de tela 2026-08-13 180122" src="https://github.com/user-attachments/assets/5720c2d0-4f14-4641-96ed-dfed8b7ae7b3" />
 
 ### Teste da IMU
 
