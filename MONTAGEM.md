@@ -57,8 +57,6 @@ A IMU se comunica pelo protocolo I²C, que usa apenas 2 fios de dados (SDA e SCL
 
 ⚠️ **Muito importante:** a IMU funciona em **3,3 V**, NÃO em 5 V. Se você ligar em 5 V, ela queima. No IO Shield, procure a linha rotulada `3V3`.
 
-<img width="814" height="580" alt="Captura de tela 2026-08-13 180122" src="https://github.com/user-attachments/assets/5720c2d0-4f14-4641-96ed-dfed8b7ae7b3" />
-
 ### Teste da IMU
 
 Antes de conectar os motores, vale confirmar que o Pico "enxerga" a IMU:
@@ -103,8 +101,6 @@ A L9110S de 4 canais tem, além dos pinos de controle acima, mais 4 conexões de
 | Saídas MOTOR-A/B/C/D | fios dos 4 motores correspondentes | agora |
 | VMOTOR (alimentação dos motores) | fio vermelho do suporte de baterias | **só na Fase 4** |
 | GND (alimentação dos motores) | fio preto do suporte de baterias | **só na Fase 4** |
-
-<img width="383" height="370" alt="image" src="https://github.com/user-attachments/assets/08f6c3ba-d6c6-4eca-abb8-019ebe56726b" />
 
 Deixe os fios da bateria **soltos**, sem conectar em nada, até a próxima fase.
 
